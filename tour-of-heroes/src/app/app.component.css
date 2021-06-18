@@ -11,11 +11,15 @@ h2,h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
-body{
+/* body{
     background: url(./picture/1234.jpg);
-    
-     margin: 2em;
+    body {
+    background-image: url(../picture/yes.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
+    margin: 2em;
+} */
 body, input[type ="text"] ,button {
     color: #333;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -24,3 +28,10 @@ body, input[type ="text"] ,button {
 *{
     font-family:Arial, Helvetica, sans-serif
 }
+body{
+    background: url(https://images.ctfassets.net/7lhcm73ukv5p/5oFMM6UnrEpjSZOXVhrZyb/6b6f9558f0514ded4e6f3d9bcbe0730e/eve-academy-main-hero-bkgr.jpg);
+    
+         
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
